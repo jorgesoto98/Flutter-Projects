@@ -1,7 +1,14 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    Center(
+      child: Text(
+        'Hello World',textDirection: TextDirection.ltr,
+      ),
+    )
+  );
 }
 
 class MyApp extends StatelessWidget {
